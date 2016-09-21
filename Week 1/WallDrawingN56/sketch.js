@@ -1,3 +1,7 @@
+/**
+ * Kevin's notes: nice work.  I'd recommend using more descriptive variable names since they are easier
+ * for others to read when they see your code.  Other than that nice work!
+ */
 
   var dry1=250;
   var dry2=500;
@@ -49,6 +53,7 @@ for( var drx = 250;drx <= 500+250; drx += 10) {
 
   for( var dry5 = 490;dry5 >=260; dry5 -= 10) {
   drx2i=drx2i+(c);
+  //since dry15 is the same as dry5, you can just use dry5 in your argument in line()
   var dry15=dry5;
   var dry25=500;
   line(250, dry15, drx2i, 500);
